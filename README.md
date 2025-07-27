@@ -337,7 +337,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **Author**: Florence Stokes
-- **Email**: florence.stokes@example.com
+- **Email**: caveascascavca537@gmail.com
 - **Issues**: [GitHub Issues](https://github.com/yourusername/multilingual-alignment-eval/issues)
 
 ---

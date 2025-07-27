@@ -568,8 +568,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Documentation**: [Read the docs](docs/)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/multilingual-alignment-eval/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/multilingual-alignment-eval/discussions)
 - **Email**: ebertclay986@gmail.com
 
 ---

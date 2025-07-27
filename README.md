@@ -568,7 +568,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Documentation**: [Read the docs](docs/)
-- **Email**: ebertclay986@gmail.com
+- **Email**: caveascascavca537@gmail.com
 
 ---
 

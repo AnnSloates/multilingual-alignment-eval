@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  mleval-api:
+    build: .
+    container_name: multilingual-eval-api
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - HUGGINGFACE_API_KEY=${HUGGINGFACE_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./temp:/app/temp
+    restart: unless-stopped
+    
+  mleval-ui:
+    image: nginx:alpine
+    container_name: multilingual-eval-ui
+    ports:
+      - "80:80"
+    volumes:
+      - ./dashboard:/usr/share/nginx/html
+    depends_on:
+      - mleval-api
+    restart: unless-stopped

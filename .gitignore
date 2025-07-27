@@ -1,0 +1,120 @@
+# .gitignore file for the project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Logs
+*.log
+logs/
+
+# Data files
+data/*.jsonl
+data/*.json
+data/*.csv
+!data/sample_responses.jsonl
+!data/final_sample_responses.jsonl
+
+# Temporary files
+temp/
+*.tmp
+*.temp
+
+# Model files
+models/
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Reports and outputs
+reports/
+outputs/
+results/
+*.html
+*.pdf
+!docs/*.html
+!docs/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# API keys and secrets
+secrets/
+*.key
+*.pem
+
+# Docker
+.dockerignore
+
+# Cache
+.cache/
+__pycache__/
+
+# Generated files
+generated_*
+*_output.*
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
